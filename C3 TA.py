@@ -20,13 +20,8 @@ while True:
         if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_SPACE:
                     dino_y_change = -1
-        if event.type == pygame.KEYUP:
-                if event.key == pygame.K_SPACE:
-                    dino_y_change = 1
     
     dino_rect.y += dino_y_change
-    if dino_rect.y > 250:
-        dino_rect.y = 250
     if dino_rect.y < 100:
         dino_rect.y = 100
     
