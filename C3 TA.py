@@ -17,14 +17,11 @@ while True:
             pygame.quit()
             sys.exit()
         
-        # TA1: Create a condition to recognize KEYDOWN
-            # TA1: Create a condition to recognize SPACE key
-                # TA1: Change dino_y_change to -1
+        # TA1: Create a condition to recognize SPACE keypress
         
     # TA1: Add dino_y_change to dino_rect's y coordinate's existing value
     
-    # TA2: Check if dino_rect.y is less than 100
-        # TA2: Set dino_rect.y back to 100
+    # TA2: Check if dino_rect.y is less than 100, if yes, set dino_rect.y back to 100
     
     cactus_rect.x = cactus_rect.x - 1
     if cactus_rect.x <= -30:
